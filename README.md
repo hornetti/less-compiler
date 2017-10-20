@@ -1,17 +1,17 @@
-# scss-compiler
-Grunt script to convert and compress Sass file into CSS file.
+# less-compiler
+Grunt script to convert and compress Less file into CSS file.
 
 ## Install
 
-To install scss-compiler you have to install [node](https://nodejs.org/it/) and [git](https://git-scm.com/) first.
+To install less-compiler you have to install [node](https://nodejs.org/it/) and [git](https://git-scm.com/) first.
 
 clone the Repo
 
-`git clone https://github.com/hornetti/scss-compiler.git`
+`git clone https://github.com/hornetti/less-compiler.git`
 
-and change directory into scss-compiler
+and change directory into less-compiler
 
-`cd scss-compiler`
+`cd less-compiler`
 
 then install npm 
 
@@ -27,11 +27,11 @@ after that install all the dependencies:
 
 ## Usage
 
-To run scss-compiler on your command line:
+To run less-compiler on your command line:
 
 `grunt` or `grunt start` for watch task
 
-scss-compiler will convert your files *from* **'src' folder** *to* **'build' folder**.
+less-compiler will convert your files *from* **'src' folder** *to* **'build' folder**.
 
 <!--
 
