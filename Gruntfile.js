@@ -1,14 +1,13 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
-		sass: {
-			dist: {
-				files: [{
-					expand: true,
-					cwd: 'src/',
-					src: ['*.scss'],
-					dest: 'build/',
-					ext: '.css'
-				}]
+		less: {
+			development: {
+				options: {
+					paths: ['source/less']
+				},
+				files: {
+			  		'build/css/style.css': 'source/less/*.less'
+				}
 			}
 		},
 		autoprefixer: {
@@ -28,9 +27,9 @@ module.exports = function(grunt) {
 	});
 
 	// Load grunt plugins.
-	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-	grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin']);
+	grunt.registerTask('default', ['less', 'autoprefixer', 'cssmin']);
 };
