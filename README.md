@@ -32,3 +32,14 @@ To run less-compiler on your command line:
 `grunt` for compile task
 
 less-compiler will convert your files *from* **'src' folder** *to* **'build' folder**.
+
+<!--
+
+## Credits
+
+TODO: Write credits
+
+## License
+
+TODO: Write license
+-->
