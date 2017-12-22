@@ -32,3 +32,15 @@ To run less-compiler on your command line:
 `grunt` for compile task
 
 less-compiler will convert your files *from* **'src' folder** *to* **'build' folder**.
+
+## Web tecnologies: 
+* npm
+* grunt
+* less
+* grunt-plugins
+
+	* less
+
+	* autoprefixer
+	
+	* cssmin
